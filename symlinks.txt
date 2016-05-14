@@ -1,0 +1,4 @@
+vimrc -> ~/.vimrc
+vim/ -> ~/.vim/
+fish/ -> ~/.config/fish/
+tmux.conf -> ~/.tmux.conf
