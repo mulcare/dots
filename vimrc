@@ -6,5 +6,5 @@ filetype plugin indent on
 let g:pencil#wrapModeDefault = 'soft'
 augroup pencil
 	autocmd!
-	autocmd FileType markdown,md	call pencil#init()
+	autocmd FileType markdown	call pencil#init()
 augroup END
