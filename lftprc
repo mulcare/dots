@@ -1,0 +1,10 @@
+alias q queue
+alias qs queue stop
+alias qm queue mirror --use-pget-n=5
+alias qp queue pget -cn 5
+alias p pget -cn 5
+alias j jobs
+alias cf cache flush
+alias lm set net:limit-total-rate 2500:2500
+alias lo set net:limit-total-rate 0:0
+set prompt "\[\e[0;35m\][ftp] \h:\w>\[\e[0m\] "
