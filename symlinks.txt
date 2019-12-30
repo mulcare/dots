@@ -1,3 +1,4 @@
+beets/config.yaml -> ~/.config/beets/config.yaml
 vimrc -> ~/.vimrc
 vim/ -> ~/.vim/
 fish/ -> ~/.config/fish/
