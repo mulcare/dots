@@ -1,0 +1,26 @@
+# ~/.config/beets/config.yaml
+
+library: /Volumes/media/music/beets/library.blb
+directory: /Volumes/media/music/lib.flac
+import:
+  timid: yes
+  log: /Volumes/media/music/beets/importer.log
+
+paths:
+  default: $albumartist/$album%aunique{} ($year) [$format]/$track $title
+
+plugins: convert fetchart copyartifacts discogs
+
+convert:
+  dest: /Volumes/media/music/lib.mp3
+  never_convert_lossy_files: yes
+  paths:
+    default: $albumartist - $album%aunique{}/$track $title
+
+fetchart:
+  minwidth: 400
+  enforce_ratio: yes
+
+  copyartifacts:
+    print_ignored: yes
+
