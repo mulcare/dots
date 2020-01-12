@@ -13,6 +13,7 @@ plugins: convert fetchart copyartifacts discogs
 
 convert:
   dest: /Volumes/media/music/lib.mp3
+  threads: 1
   never_convert_lossy_files: yes
   paths:
     default: $albumartist - $album%aunique{}/$track $title
